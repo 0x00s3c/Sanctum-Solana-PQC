@@ -1,8 +1,8 @@
 # Sanctum-Solana-PQC
 ### The Sanctum-Solana PQC Bridge is not just an upgrade; it is a necessity for the "Institutional Era" of digital assets. By combining local AI privacy with post-quantum security, we provide the ultimate trust layer for the global P2P economy.
 
-## Solving the $100B Quantum Threat in DeFi
-### Created a P2P payment bridge that uses Post-Quantum Cryptography to secure high-value Solana transactions, providing a zero-trust escrow solution that operates via local Sanctum AI agents.
+### Solving the $100B Quantum Threat in DeFi
+Created a P2P payment bridge that uses Post-Quantum Cryptography to secure high-value Solana transactions, providing a zero-trust escrow solution that operates via local Sanctum AI agents.
 
 Designing a PQC-aware escrow logic for Solana is a "holy grail" project for 2026. Because the Solana Virtual Machine (SVM) is built on Rust, you would typically implement this as a Solana Program (Smart Contract) that functions as a "Gatekeeper."
 
@@ -30,17 +30,17 @@ Sanctum-Solana-PQC/
 ## The "P2P PQC-Bridge" Workflow
 In this model, the Sanctum AI Agent acts as the "Secure Escrow" that validates and confirms the payment before the Solana transaction finalizes.
 
-### Validation: The Sanctum Agent locally verifies the vendor's identity and the goods/services status.
+Validation: The Sanctum Agent locally verifies the vendor's identity and the goods/services status.
 
-### Confirmation (PQC): The agent signs a "Ready to Release" command using ML-DSA-65 (Dilithium). This signature is quantum-resistant and acts as the true authorization.
+Confirmation (PQC): The agent signs a "Ready to Release" command using ML-DSA-65 (Dilithium). This signature is quantum-resistant and acts as the true authorization.
 
-### Secure Release: The Solana smart contract only releases the USDC/SOL once it receives the ML-DSA signature from your bridge.
+Secure Release: The Solana smart contract only releases the USDC/SOL once it receives the ML-DSA signature from your bridge.
 
 
 ## Vendor Security
 
-### Non-Custodial Power: The vendor doesn't have to trust a human; they trust the PQC Math. Even if the Solana network's classical encryption is someday cracked, your bridge's signature remains secure.
+Non-Custodial Power: The vendor doesn't have to trust a human; they trust the PQC Math. Even if the Solana network's classical encryption is someday cracked, your bridge's signature remains secure.
 
-### Offensive Resistance: As a security specialist, you can demonstrate that this protects against "Replay Attacks" by including a unique nonce in the PQC-signed message.
+Offensive Resistance: As a security specialist, you can demonstrate that this protects against "Replay Attacks" by including a unique nonce in the PQC-signed message.
 
-### Cross-Chain Potential: This logic can be adapted for Ethereum (L2s) or Cosmos, making you a versatile P2P Payment Architect.
+Cross-Chain Potential: This logic can be adapted for Ethereum (L2s) or Cosmos, making you a versatile P2P Payment Architect.
