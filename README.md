@@ -1,6 +1,9 @@
 # Sanctum-Solana-PQC
 ### The Sanctum-Solana PQC Bridge is not just an upgrade; it is a necessity for the "Institutional Era" of digital assets. By combining local AI privacy with post-quantum security, we provide the ultimate trust layer for the global P2P economy.
 
+## Solving the $100B Quantum Threat in DeFi
+### Created a P2P payment bridge that uses Post-Quantum Cryptography to secure high-value Solana transactions, providing a zero-trust escrow solution that operates via local Sanctum AI agents.
+
 Designing a PQC-aware escrow logic for Solana is a "holy grail" project for 2026. Because the Solana Virtual Machine (SVM) is built on Rust, you would typically implement this as a Solana Program (Smart Contract) that functions as a "Gatekeeper."
 
 Since direct ML-DSA verification is computationally heavy for a Layer 1 blockchain, the most efficient "2026-style" architecture is a Hybrid On-Chain/Off-Chain Validation.
