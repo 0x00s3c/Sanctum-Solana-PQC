@@ -1,0 +1,13 @@
+# --- Quantum & AI Core ---
+pennylane>=0.44.0
+pennylane-lightning>=0.42.0
+sanctum-sdk>=1.2.0  # Official 2026 Sanctum Python SDK
+
+# --- Post-Quantum Cryptography ---
+liboqs-python>=0.10.0
+cryptography>=44.0.0
+
+# --- Web & Integration ---
+requests>=2.32.0
+solana>=0.34.0      # Solana Python SDK
+anchorpy>=0.20.0    # Anchor framework for Solana interaction
