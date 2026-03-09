@@ -34,10 +34,10 @@ In this model, the Sanctum AI Agent acts as the "Secure Escrow" that validates a
 ### Secure Release: The Solana smart contract only releases the USDC/SOL once it receives the ML-DSA signature from your bridge.
 
 
-# Vendor Security
+## Vendor Security
 
-## Non-Custodial Power: The vendor doesn't have to trust a human; they trust the PQC Math. Even if the Solana network's classical encryption is someday cracked, your bridge's signature remains secure.
+### Non-Custodial Power: The vendor doesn't have to trust a human; they trust the PQC Math. Even if the Solana network's classical encryption is someday cracked, your bridge's signature remains secure.
 
-## Offensive Resistance: As a security specialist, you can demonstrate that this protects against "Replay Attacks" by including a unique nonce in the PQC-signed message.
+### Offensive Resistance: As a security specialist, you can demonstrate that this protects against "Replay Attacks" by including a unique nonce in the PQC-signed message.
 
-## Cross-Chain Potential: This logic can be adapted for Ethereum (L2s) or Cosmos, making you a versatile P2P Payment Architect.
+### Cross-Chain Potential: This logic can be adapted for Ethereum (L2s) or Cosmos, making you a versatile P2P Payment Architect.
