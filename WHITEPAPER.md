@@ -7,7 +7,7 @@
 
 ### Status: Research & Prototype (v1.0-alpha)
 
-###Target Ecosystem: Solana (Project Eleven Compatible), Sanctum AI, NIST PQC Standards
+### Target Ecosystem: Solana (Project Eleven Compatible), Sanctum AI, NIST PQC Standards
 
 ## 1. Executive Summary
 As quantum computing approaches cryptographic relevance, the Ed25519 signatures securing the Solana network face long-term risks. High-value P2P vendor transactions are particularly vulnerable to "Harvest Now, Decrypt Later" attacks. The Sanctum-Solana PQC Bridge introduces a secondary validation layer using NIST FIPS 204 (ML-DSA) digital signatures and Sanctum local AI to ensure that funds are only released after a quantum-resistant, privacy-preserving verification.
