@@ -1,8 +1,18 @@
 # Sanctum-Solana-PQC
 ### The Sanctum-Solana PQC Bridge is not just an upgrade; it is a necessity for the "Institutional Era" of digital assets. By combining local AI privacy with post-quantum security, we provide the ultimate trust layer for the global P2P economy.
 
+Designing a PQC-aware escrow logic for Solana is a "holy grail" project for 2026. Because the Solana Virtual Machine (SVM) is built on Rust, you would typically implement this as a Solana Program (Smart Contract) that functions as a "Gatekeeper."
 
+Since direct ML-DSA verification is computationally heavy for a Layer 1 blockchain, the most efficient "2026-style" architecture is a Hybrid On-Chain/Off-Chain Validation.
 
+## The "PQC Gatekeeper" Architecture
+The Vault (On-Chain): A Solana Program that holds the SOL/USDC in escrow.
+
+The PQC Oracle (Your Bridge): Your Sanctum-powered bridge verifies the vendor transaction and signs a "Release Ticket" using ML-DSA.
+
+The Verification (On-Chain): The Solana Program uses a PQC-Verifying SDK (like a Rust implementation of Crystal-Dilithium) to check the signature before moving funds.
+
+Rust/Solana Source: PQC Escrow Logic
 
 Sanctum-Solana-PQC/
 ├── bridge_agent/
