@@ -32,3 +32,12 @@ In this model, the Sanctum AI Agent acts as the "Secure Escrow" that validates a
 ### Confirmation (PQC): The agent signs a "Ready to Release" command using ML-DSA-65 (Dilithium). This signature is quantum-resistant and acts as the true authorization.
 
 ### Secure Release: The Solana smart contract only releases the USDC/SOL once it receives the ML-DSA signature from your bridge.
+
+
+# Vendor Security
+
+## Non-Custodial Power: The vendor doesn't have to trust a human; they trust the PQC Math. Even if the Solana network's classical encryption is someday cracked, your bridge's signature remains secure.
+
+## Offensive Resistance: As a security specialist, you can demonstrate that this protects against "Replay Attacks" by including a unique nonce in the PQC-signed message.
+
+## Cross-Chain Potential: This logic can be adapted for Ethereum (L2s) or Cosmos, making you a versatile P2P Payment Architect.
