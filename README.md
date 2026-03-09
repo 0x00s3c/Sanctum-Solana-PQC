@@ -22,3 +22,13 @@ Sanctum-Solana-PQC/
 │   └── src/lib.rs          # Rust-based PQC Escrow Program
 └── tests/
     └── foundation_test.py  # Local validation of PQC & AI handoff
+
+
+## The "P2P PQC-Bridge" Workflow
+In this model, the Sanctum AI Agent acts as the "Secure Escrow" that validates and confirms the payment before the Solana transaction finalizes.
+
+### Validation: The Sanctum Agent locally verifies the vendor's identity and the goods/services status.
+
+### Confirmation (PQC): The agent signs a "Ready to Release" command using ML-DSA-65 (Dilithium). This signature is quantum-resistant and acts as the true authorization.
+
+### Secure Release: The Solana smart contract only releases the USDC/SOL once it receives the ML-DSA signature from your bridge.
